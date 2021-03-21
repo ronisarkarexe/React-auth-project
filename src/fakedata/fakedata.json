@@ -1,0 +1,25 @@
+[{
+   "id": 1,
+   "img": "https://freepngimg.com/thumb/car/4-2-car-png-hd.png",
+   "amount": "60",
+   "name": "Car",
+   "people": "4"
+ }, {
+   "id": 2,
+   "img": "https://www.freepnglogos.com/uploads/bike-png/yamaha-motorcycle-bike-png-image-pngpix-2.png",
+   "amount": "40",
+   "name": "Bike",
+   "people": "2"
+ }, {
+   "id": 3,
+   "img": "https://cms.grapesmobile.com/uploads/truck/exterior/7b366bc3c470c5d3355bbc629af1723d.jpg",
+   "amount": "25",
+   "name": "Bus",
+   "people": "4"
+ }, {
+   "id": 4,
+   "img": "https://freepngimg.com/thumb/train/29606-5-train-photos-thumb.png",
+   "amount": "20",
+   "name": "Train",
+   "people": "4"
+ }]

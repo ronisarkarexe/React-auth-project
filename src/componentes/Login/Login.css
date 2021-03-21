@@ -1,0 +1,89 @@
+.bth-Google{
+   border: 1px solid lightgrey;
+   border-radius:20px;
+   width:300px;
+   height:35px;
+   font-size:16px;
+   background-color:white;
+}
+.icon-margin{
+   margin:0 60px;
+   margin-bottom: 20px;
+}
+.form-login{
+   margin-top: 50px;
+   margin-left: 36%;
+   padding-top: 8px;
+   width:400px;
+   height:280px;
+   background-color: rgb(250, 246, 246);
+   box-shadow: 5px 5px 10px rgba(211, 210, 210, 0.8);
+   border-radius:10px;
+}
+.form-login h4{
+   margin-left: 60px;
+}
+
+.form-field{
+   width:270px;
+   margin: 10px 60px;
+}
+.creatAccount{
+   margin-left: 60px;
+   margin-top: 40px;
+}
+.bth-Google img{
+   width: 30px;
+   height: 30px;
+   margin-left:-8px;
+}
+.or-style{
+   margin-left: 42%;
+   margin-top: 23px;
+}
+
+@media only screen and (max-width: 380px) {
+   .bth-Google{
+      border: 1px solid lightgrey;
+      border-radius:20px;
+      width:300px;
+      height:35px;
+      font-size:16px;
+      background-color:white;
+   }
+   .icon-margin{
+      margin:0 60px;
+      margin-bottom: 20px;
+   }
+   .form-login{
+      margin-top: 50px;
+      margin-left: 9%;
+      padding-top: 8px;
+      width:300px;
+      height:300px;
+      background-color: rgb(250, 246, 246);
+      box-shadow: 5px 5px 10px rgba(211, 210, 210, 0.8);
+      border-radius:10px;
+   }
+   .form-login h4{
+      margin-left: 60px;
+   }
+   
+   .form-field{
+      width:220px;
+      margin: 10px 40px;
+   }
+   .creatAccount{
+      margin-left: 60px;
+      margin-top: 40px;
+   }
+   .bth-Google img{
+      width: 30px;
+      height: 30px;
+      margin-left:-8px;
+   }
+   .or-style{
+      margin-left: 20%;
+      margin-top: 23px;
+   }
+ }

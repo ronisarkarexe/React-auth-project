@@ -1,0 +1,142 @@
+.booking-form{
+   background-color: lightgrey;
+   border: 1px solid #ddd;
+   padding: 10px;
+   border-radius: 5px;
+   width: 26%;
+   margin-top:20px;
+   margin-bottom:20px;
+}
+.booking-form  .input-group{
+   margin: 10px 9px;
+}
+.butto-color{
+   background-color:rgb(207, 70, 130);
+   width:244px;
+   margin-left: 9px;
+   height:36px;
+   border: none;
+   border-radius:10px;
+}
+.inp-style{
+   border:none;
+   background-color:azure;
+   font-size:14px;
+   border-radius:5px;
+   height:34px;
+   width: 244px;
+}
+.car-default{
+   display:flex;
+   margin-top:10px;
+   margin-left: 9px;
+   width:244px;
+   height:60px;
+   background-color:azure;
+   border-radius: 10px;
+}
+.car-default img{
+   margin-top: 10px;
+   margin-left:10px;
+   width:60px;
+   height:40px;
+}
+.car-default h5{
+   margin: 17px 15px;
+}
+.car-default h6{
+   margin:20px 0px;
+}
+.location-destination{
+   background-color:azure;
+   height:96px;
+   width: 244px;
+   margin-left:9px;
+   border-radius:8px;
+}
+.location-destination h4{
+   font-size: 20px;
+   font-weight:bold;
+   margin-left:8px;
+   margin-top:4px;
+}
+.location-destination small{
+   margin-left: 19px;
+}
+.map-container{
+  margin-left:360px;
+  margin-top:-355px;
+}
+
+@media only screen and (max-width: 380px) {
+   .booking-form{
+      background-color: lightgrey;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 5px;
+      width: 290px;
+      margin-top:20px;
+      margin-bottom:20px;
+   }
+   .booking-form  .input-group{
+      margin: 10px 9px;
+   }
+   .butto-color{
+      background-color:rgb(207, 70, 130);
+      width:244px;
+      margin-left: 9px;
+      height:36px;
+      border: none;
+      border-radius:10px;
+   }
+   .inp-style{
+      border:none;
+      background-color:azure;
+      font-size:14px;
+      border-radius:5px;
+      height:34px;
+      width: 244px;
+   }
+   .car-default{
+      display:flex;
+      margin-top:10px;
+      margin-left: 9px;
+      width:244px;
+      height:60px;
+      background-color:azure;
+      border-radius: 10px;
+   }
+   .car-default img{
+      margin-top: 10px;
+      margin-left:10px;
+      width:60px;
+      height:40px;
+   }
+   .car-default h5{
+      margin: 17px 15px;
+   }
+   .car-default h6{
+      margin:20px 0px;
+   }
+   .location-destination{
+      background-color:azure;
+      height:96px;
+      width: 244px;
+      margin-left:9px;
+      border-radius:8px;
+   }
+   .location-destination h4{
+      font-size: 20px;
+      font-weight:bold;
+      margin-left:8px;
+      margin-top:4px;
+   }
+   .location-destination small{
+      margin-left: 19px;
+   }
+   .map-container{
+      margin-left:0px;
+      margin-top:0px;
+    }
+  
+ }
