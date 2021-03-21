@@ -59,11 +59,13 @@ const Login = () => {
       if(newUser && user.email && user.password) {
          firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
          .then((res) => {
+            console.log('creatAccount', res)
             const newUserInfo = {...user}
             newUserInfo.error = '';
             newUserInfo.success = true;
             setUser(newUserInfo);
-            userUpdateName(user.name)
+            userUpdateName(user.email)
+            console.log("creat name", user.name)
             const {name, email} = user;
             const signInEmail ={
                name: name,
@@ -86,7 +88,7 @@ const Login = () => {
             newUserInfo.error = '';
             newUserInfo.success = true;
             setUser(newUserInfo)
-            setLoggedInUser(user.name)
+            userUpdateName(user.email)
             const {name, email} = user;
             const signInEmail ={
                name: name,

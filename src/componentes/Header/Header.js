@@ -20,11 +20,11 @@ const Header = () => {
                   <Nav.Link as={Link} to="/">Home</Nav.Link>
                   <Nav.Link as={Link} to={"/destination/:"}>Destination</Nav.Link>
                   <Nav.Link href="#deets">Blog</Nav.Link>
-                  <Nav.Link className="userName" href="#deets">{loggedInUser.name}</Nav.Link>
-                  {!loggedInUser.name && 
+                  <Nav.Link className="userName" href="#deets">{loggedInUser.email}</Nav.Link>
+                  {!loggedInUser.email && 
                   <Link to="/login"><Button  variant="primary" >Login</Button></Link>
                   }
-                  {loggedInUser.name && 
+                  {loggedInUser.email && 
                   <Link to="/login" onClick={() => setLoggedInUser({})}><Button variant="primary" >Logout</Button></Link>
                   }
                </Nav>
