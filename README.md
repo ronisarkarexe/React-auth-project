@@ -15,3 +15,6 @@ Core Features:
 5 Css
 6 Html
 7 Fake json date
+8 authentication
+9 context API
+10 Redirect(Auth)
