@@ -1,7 +1,12 @@
 # Tithi Reiders
 
-I'm develop this simple project is to get tithi riders of any city of any country .
-This project is about an riders testing of Firebase. My react router practice Project.
+### Project Summary
+1 A simple web application with Admin & Customer dashboard.
+2 Completed upkeep on rail yard and perform maintenance tasks on
+railcars.
+3 Served customers in a friendly, efficient manner following
+outlined steps of service.
+4 A user can select their destination. And see Google Map also.
 
 ## Technology: React, React router, Firebase
 
@@ -19,10 +24,3 @@ This project is about an riders testing of Firebase. My react router practice Pr
 9 context API
 10 Redirect(Auth)
 
-### Project Summary
-1 A simple web application with Admin & Customer dashboard.
-2 Completed upkeep on rail yard and perform maintenance tasks on
-railcars.
-3 Served customers in a friendly, efficient manner following
-outlined steps of service.
-4 A user can select their destination. And see Google Map also.
